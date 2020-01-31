@@ -15,15 +15,17 @@ export default {
 
 <style >
 .footer{
-    margin-top: 20px;
-    background-color:black;
+    margin-top: -45px;
+    padding-left: 10px;
+    background-color:  #1B1A1F;
     height: 50px;
+    
 }
 
 h4{
-    margin-top: 20px;
+    line-height: 50px;
     color: white;
     text-align: center;
-    margin-top: 20px;
+    padding: 10px;
 }
 </style>

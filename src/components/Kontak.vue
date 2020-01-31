@@ -1,6 +1,5 @@
 <template>
-
-     <div>
+     <div class="Kontak" id="Kontak">
         <b-jumbotron class="jumbotron jumbotron-fluid">
             <b-container fluid="md">
                 <b-row style="margin-bottom: 50px">
@@ -20,7 +19,7 @@
                 </b-col>
                 <b-col md="6">
                     <div class="form">
-                    <b-card class="card" bg-variant="dark">
+                    <b-card class="card" >
                         <h2>Hubungi Kami</h2>
 
                     <b-form-group
@@ -44,7 +43,7 @@
                     <b-form-group
                         label-cols-sm="4"
                         label="Email"
-                        label-align-sm="lest"
+                        label-align-sm="left"
                         label-for="nested-Email"
                     >
                         <b-form-input id="nested-Email"></b-form-input>
@@ -65,11 +64,11 @@
                     </div>
                 </b-col>
                 </b-row>
-                <ul class="ul">
-                <li>Plugin.com</li>
-                <li>Official.Plugin.com</li>
-                <li>Official.Plugin.com</li>
-                </ul>
+                <b-ul class="ul">
+                <b-li>Plugin.com</b-li>
+                <b-li>Official.Plugin.com</b-li>
+                <b-li>Official.Plugin.com</b-li>
+                </b-ul>
             </b-container>
         </b-jumbotron>
     </div>
@@ -87,24 +86,21 @@ export default {
 </script>
 
 <style scoped>
-*{
-    margin: 0;
-    padding: 0;
+.Kontak{
+    margin-top: -45px;
 }
+
     .card{
         margin-top: 60px;
-        border: #1B1A1F;
-        width: 400px; 
+        width: 350px; 
         height: 390px;
-        border: 2px solid white;
+        background-color: #232428;
         border-radius: 0.6em;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     }
     label{
         font-family: 'Gilroy', sans-serif;
-
     }
- 
-
     h2{
         color:white;
         text-align: center;
@@ -113,7 +109,6 @@ export default {
     }
     .card button{
         margin-top: 40px;
-
         background: #1B1A1F;
         color: white;
         font-family: 'Gilroy-light', sans-serif;
@@ -130,7 +125,11 @@ export default {
         
     }
 
-    li{
+    .card b-form-group{
+        background-color:black;
+    }
+
+    b-li{
         list-style: none;
         margin: 20px;
 
@@ -150,7 +149,7 @@ export default {
     src: url('/assets/Gilroy-ExtraBold.otf');
   }
     .jumbotron{
-        background-color: #1B1A1F;
+        background-color: #232428 ;
         color: white;
         font-family: 'Gilroy', sans-serif;
         padding-top: 50px;

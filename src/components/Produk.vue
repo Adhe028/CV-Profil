@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="Produk" id="Produk">
         <b-jumbotron class="jumbotron jumbotron-fluid">
             <b-container fluid="md">
                     <div class="Home">
@@ -28,10 +28,12 @@ export default {
 }
 </script>
 
-<style  scoped>
+<style scoped>
 
-
-
+.Produk{
+    padding: 0;
+    margin: 0;
+}
     img{
         float: left;
         height: 220px;
@@ -78,6 +80,20 @@ export default {
     .Home{
         margin-left: -10px;
     }
+    /* .full {
+    width: 100%;
+    height: auto;
+    } */
+    img {
+    width: 400px;
+    height: 350px;
+    margin-top: 50px;
+    
+    }
+    img:hover {
+    cursor: pointer;
+    }
+
 
 }
 

@@ -1,5 +1,5 @@
 <template>
-    <div class="Team">
+    <div class="Team" id="Tim">
         <div class="container teks">
             <h1>Tim</h1>
         </div>

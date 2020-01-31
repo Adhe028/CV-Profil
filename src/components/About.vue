@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="Tentang">
         <b-jumbotron class="jumbotron jumbotron-fluid">
             <b-container fluid="md">
                     <div class="Home">
